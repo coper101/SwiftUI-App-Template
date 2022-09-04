@@ -8,5 +8,5 @@
 import Foundation
 
 class AppState: ObservableObject {
-  @Published var sample = 1
+    @Published var sample = 1
 }

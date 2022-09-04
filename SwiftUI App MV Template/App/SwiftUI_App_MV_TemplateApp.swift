@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUI_App_MV_TemplateApp: App {
+    @StateObject var appState: AppState = .init()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
+                .environmentObject(appState)
         }
     }
 }

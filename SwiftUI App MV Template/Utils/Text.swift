@@ -50,7 +50,7 @@ extension View {
     /// - Returns: A Text View with new Style
     func textStyle(
         foregroundColor: Colors = .primary,
-        font: Fonts = .DMSansBold,
+        font: Types = .DMSansBold,
         size: Int,
         maxWidth: CGFloat? = nil,
         alignment: Alignment = .leading,
